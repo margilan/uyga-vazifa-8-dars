@@ -1,0 +1,59 @@
+.todo-wraper{
+  width: 600px;
+  margin: 0 auto;
+  box-shadow: 20px 20px 20px lightgray;
+  border:2px solid lightgray;
+  padding: 30px;
+  border-radius:12px;
+  background:linear-gradient(yellow , green )
+}
+.wraper h1{
+  margin-left: 600px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+form{
+  width: 100%;
+}
+form input{
+  width: 80%;
+  height: 40px;
+  padding: 10px 10px;
+  outline-color:blue;
+  border-radius:10px;
+  border:1px solid lightgray;
+}
+form button{
+  height: 40px;
+  width: 20%;
+  border-radius:10px;
+  border:1px solid lightgray;
+  cursor: pointer;
+  background: blue;
+  color:white;
+  transition: all 0.5s;
+}
+button:hover{
+  transform: scale(1.2);
+  cursor: progress;
+}
+ul li{
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  background: linear-gradient(red , blue);
+  padding: 15px;
+  border-radius:10px;
+  color:white;
+  margin-bottom:20px
+}
+.name{
+  margin-right: 10px;
+  cursor: pointer;
+}
+.span{
+  display: flex;
+  gap: 20px;
+  cursor: pointer;
+}
